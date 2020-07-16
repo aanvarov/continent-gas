@@ -1,0 +1,71 @@
+/* font import */
+@import url("../fonts/Gilroy/stylesheet.css");
+
+body {
+  margin: 0;
+  font-family: Gilroy;
+  font-style: normal;
+}
+.header {
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.navigation {
+  padding: 54px 0;
+}
+.wrapper {
+  width: 1450px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* 1440-1100 1024-800 768-680*/
+}
+.navLinks a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 35px;
+}
+.navLinks img {
+    margin: 0 4px 4px 0;
+}
+.iconToggler {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 1px;
+  margin: 5px 0;
+}
+.headerTitle {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 145.9%;
+  margin: 0;
+}
+.headerPara {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 15px 0 33px;
+}
+.headerBtn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 15px 34px 17px;
+  background-color: #2f7cbd;
+  color: #ffffff;
+  display: inline-block;
+}
+.headerImg img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    width: 1100px;
+  }
+}
